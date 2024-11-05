@@ -1,0 +1,23 @@
+{
+  "name": "phone-verification-by-twilio",
+  "version": "1.0.0",
+  "description": "Phone no Verification by Twilio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "sudhakar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongod": "^2.0.0",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
+    "twilio": "^5.3.5",
+    "winston": "^3.16.0"
+  }
+}

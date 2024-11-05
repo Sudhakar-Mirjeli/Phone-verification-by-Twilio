@@ -1,0 +1,49 @@
+# Node.js Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# npm package-lock or yarn.lock
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files (e.g., Visual Studio Code, JetBrains)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing and coverage
+coverage/
+*.lcov
+
+# TypeScript files (if you're using TypeScript)
+*.tsbuildinfo
+
+# AWS / Cloud service credentials (ensure credentials are not tracked)
+*.pem
+*.p12
+*.key
+*.crt
+*.csr
