@@ -43,12 +43,14 @@ The application allows users to receive OTP codes via SMS to verify their phone 
 
 2. API Endpoints:
    * POST  /api/auth/send-otp
-       Request body={
+    
+    *  Request body={
           phone:number
        }
    
    * POST  /api/auth/verify-otp
-      Request body={
+
+      * Request body={
           phone:number,
           code:number
        }
