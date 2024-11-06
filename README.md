@@ -4,9 +4,9 @@ This is a Node.js server application that integrates Twilio for Phone Number Ver
 The application allows users to receive OTP codes via SMS to verify their phone numbers.
 
 **Features**
- Sends OTP to a user's phone number via Twilio.
- Verifies the OTP entered by the user.
- API endpoints for sending OTP and verifying the OTP.
+ * Sends OTP to a user's phone number via Twilio.
+ * Verifies the OTP entered by the user.
+ * API endpoints for sending OTP and verifying the OTP.
 
 **Technologies**
  Node.js: Backend JavaScript runtime.
